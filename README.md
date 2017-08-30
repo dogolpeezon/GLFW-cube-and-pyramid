@@ -12,3 +12,10 @@ Some people have used G++ compiler with all the GLFW libs linked.. IE:
 g++ glfw-0.cpp -o glfw -lGLEW -lglfw3 -lGL -lX11 -lXi -lXrandr -lXxf86vm -lXinerama -lXcursor -lrt -lm -pthread -ldl -lGLU
 
 but i prefer using the cmake.
+
+Recourses..
+
+http://antongerdelan.net/
+https://travis-ci.org/danielunderwood/glfw-game-engine)
+http://learnopengl.com
+https://github.com/SonarSystems/Modern-OpenGL-Game-Engine
