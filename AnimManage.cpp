@@ -24,7 +24,7 @@ void AnimManage::runLoop(){
         glCullFace(GL_BACK); */
      
         draw1.Cube();
-        //draw2.Pyramid();
+        draw2.Pyramid();
 
         glfwSwapBuffers(_window);
         glfwPollEvents();

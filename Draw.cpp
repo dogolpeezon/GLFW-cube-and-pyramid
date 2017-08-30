@@ -21,12 +21,12 @@ Draw::~Draw(){
 
 void Draw::Pyramid(){
     // Code for the GL verts of a pyramid here
-    static float pAlpha = 0;
-    cout << "\nIn Pyramid.." << pAlpha << endl;
+    static float pRot = 0;
+    cout << "\nIn Pyramid.." << pRot << endl;
     glLoadIdentity();
     glPushMatrix();
-    //glTranslatef(0, 0 , 1);
-    glRotatef(pAlpha, 0, pAlpha, 0.0);
+    glTranslatef(0, -0.5, 1);
+    glRotatef(pRot, 0, pRot, 0.0);
     glBegin(GL_TRIANGLES);       
     // Front
         glColor3fv(red);     
@@ -58,19 +58,20 @@ void Draw::Pyramid(){
         glVertex3f(-x, -y, z);  //bottom left front
     glEnd();
 
-    pAlpha++;
+    pRot++;
     glPopMatrix();
     glFlush();
 }
 
 void Draw::Cube(){
     // Code for the GL verts of a cube here
-    static float cAlpha = 0;
-    cout << "\nIn Cube.." << cAlpha << endl;
+    static float cRot = 0;
+    cout << "\nIn Cube.." << cRot << endl;
     glLoadIdentity();
     glPushMatrix();
-    //glTranslatef(0, 0, 0);
-    glRotatef(cAlpha, cAlpha, cAlpha, 0.0 );
+    glTranslatef(0, 0.5, 0);
+    glScalef(0.5, 0.5, 0.5);
+    glRotatef(cRot, cRot, cRot, 0.0 );
     glBegin(GL_QUAD_STRIP);     //quad strip for bottom, top front, back.
         glColor3fv(red);       
         glVertex3f(-x, -y, -z); //bottom left back
@@ -116,7 +117,7 @@ void Draw::Cube(){
         glVertex3f(-x, y, z);   //top left front
     glEnd();
 
-    cAlpha++;
+    cRot++;
     glPopMatrix();
     glFlush();
 }
