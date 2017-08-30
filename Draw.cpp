@@ -26,7 +26,7 @@ void Draw::Pyramid(){
     glLoadIdentity();
     glPushMatrix();
     glTranslatef(0, -0.5, 1);
-    glRotatef(pRot, 0, pRot, 0.0);
+    glRotatef(pRot, 0.0, -1.0, 0.0);
     glBegin(GL_TRIANGLES);       
     // Front
         glColor3fv(red);     
@@ -71,7 +71,7 @@ void Draw::Cube(){
     glPushMatrix();
     glTranslatef(0, 0.5, 0);
     glScalef(0.5, 0.5, 0.5);
-    glRotatef(cRot, cRot, cRot, 0.0 );
+    glRotatef(cRot, 1.0, 1.0, 0.0 );
     glBegin(GL_QUAD_STRIP);     //quad strip for bottom, top front, back.
         glColor3fv(red);       
         glVertex3f(-x, -y, -z); //bottom left back
