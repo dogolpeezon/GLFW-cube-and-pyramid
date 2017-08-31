@@ -11,7 +11,9 @@ Build..
 You can simply use the cmake file to compile the example.. 
 
  Download zip..
+ 
  cd /GLFW-cube-and-pyramid-master.zip/
+ 
  cmake build
 
 For libs and include are in the deps/ directory. Prob best to apt-get GL libs though.
