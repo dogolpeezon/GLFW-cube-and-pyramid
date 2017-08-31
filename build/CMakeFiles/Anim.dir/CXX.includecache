@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.cpp
+AnimManage.h
+/home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
+
+/home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
+iostream
+-
+GLFW/glfw3.h
+/home/dogol/progs/opengl/mygl/glfw/anim/GLFW/glfw3.h
+Keyboard.h
+/home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
+Draw.h
+/home/dogol/progs/opengl/mygl/glfw/anim/Draw.h
+
+/home/dogol/progs/opengl/mygl/glfw/anim/Draw.cpp
+Draw.h
+/home/dogol/progs/opengl/mygl/glfw/anim/Draw.h
+
+/home/dogol/progs/opengl/mygl/glfw/anim/Draw.h
+iostream
+-
+GLFW/glfw3.h
+-
+AnimManage.h
+/home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
+
+/home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
+AnimManage.h
+/home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
+
+/home/dogol/progs/opengl/mygl/glfw/anim/main.cpp
+AnimManage.h
+/home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
+
