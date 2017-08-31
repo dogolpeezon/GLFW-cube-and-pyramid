@@ -1,18 +1,18 @@
 # GLFW-cube-and-pyramid
 OpenGL GLFW Cube pyramid 
 
-This is my cube example of using GLFW with a more Object Oriented way. It was written on Linux mint system. I am working on a cross compilation make.
+This is my cube example of using GLFW with a more Object Oriented way. It was written on Linux mint system. I am working on a cross compilation cmake.
 
-I have wrote a manager for the loop as all the examples i had found on line were written all in one file.. this is a start to creating more a type of application. Next working on the keyboard input to selet and control.
+All the examples i had found on line were written all in one file.. this is a start to creating more a type of application. Next working on the keyboard input to selet and control.
 
 
 Build..
 
 You can simply use the cmake file to compile the example.. 
 
-Download zip..
-cd /GLFW-cube-and-pyramid-master.zip/
-cmake build
+ Download zip..
+ cd /GLFW-cube-and-pyramid-master.zip/
+ cmake build
 
 For libs and include are in the deps/ directory. Prob best to apt-get GL libs though.
 
