@@ -9,6 +9,8 @@
 /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.cpp
 AnimManage.h
 /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
+Keyboard.h
+/home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
 
 /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
 iostream
