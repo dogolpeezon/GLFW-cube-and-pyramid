@@ -11,12 +11,14 @@ Build..
 You can simply use the cmake file to compile the example.. 
 
  Download zip..
+ 
  cd /GLFW-cube-and-pyramid-master.zip/
+ 
  cmake build
 
-For libs and include are in the deps/ directory. Prob best to apt-get GL libs though.
+May have to edit cmake libs and include to the deps/ directory. Prob best to apt-get install GLEW glfw3 libs though.. then cmake should work if installed in same directories.
 
-Some people have used G++ compiler with all the GLFW libs linked.. IE: 
+Some people have used g++ compiler with all the GLFW libs linked.. IE: 
 
 g++ glfw-0.cpp -o glfw -lGLEW -lglfw3 -lGL -lX11 -lXi -lXrandr -lXxf86vm -lXinerama -lXcursor -lrt -lm -pthread -ldl -lGLU
 
