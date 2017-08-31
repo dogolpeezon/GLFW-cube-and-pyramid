@@ -199,6 +199,33 @@ Draw.cpp.s:
 	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Draw.cpp.s
 .PHONY : Draw.cpp.s
 
+Keyboard.o: Keyboard.cpp.o
+
+.PHONY : Keyboard.o
+
+# target to build an object file
+Keyboard.cpp.o:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Keyboard.cpp.o
+.PHONY : Keyboard.cpp.o
+
+Keyboard.i: Keyboard.cpp.i
+
+.PHONY : Keyboard.i
+
+# target to preprocess a source file
+Keyboard.cpp.i:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Keyboard.cpp.i
+.PHONY : Keyboard.cpp.i
+
+Keyboard.s: Keyboard.cpp.s
+
+.PHONY : Keyboard.s
+
+# target to generate assembly for a file
+Keyboard.cpp.s:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Keyboard.cpp.s
+.PHONY : Keyboard.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -243,6 +270,9 @@ help:
 	@echo "... Draw.o"
 	@echo "... Draw.i"
 	@echo "... Draw.s"
+	@echo "... Keyboard.o"
+	@echo "... Keyboard.i"
+	@echo "... Keyboard.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

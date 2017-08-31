@@ -19,7 +19,7 @@ public:
 
 private: 
     bool _running;
-    Keyboard *_Keyboard;
+    //Keyboard *_Keyboard;
     GLFWwindow *_window;
 
     AnimManage(bool running);

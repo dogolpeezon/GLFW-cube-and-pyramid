@@ -13,5 +13,10 @@
   "directory": "/home/dogol/progs/opengl/mygl/glfw/anim/build",
   "command": "/usr/bin/c++     -g   -o CMakeFiles/Anim.dir/Draw.cpp.o -c /home/dogol/progs/opengl/mygl/glfw/anim/Draw.cpp",
   "file": "/home/dogol/progs/opengl/mygl/glfw/anim/Draw.cpp"
+},
+{
+  "directory": "/home/dogol/progs/opengl/mygl/glfw/anim/build",
+  "command": "/usr/bin/c++     -g   -o CMakeFiles/Anim.dir/Keyboard.cpp.o -c /home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.cpp",
+  "file": "/home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.cpp"
 }
 ]

@@ -5,7 +5,7 @@ find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 include_directories(${deps/include})
 
-add_executable(Anim main.cpp AnimManage.cpp Draw.cpp)
+add_executable(Anim main.cpp AnimManage.cpp Draw.cpp Keyboard.cpp)
 
 target_link_libraries(Anim ${deps/lib} GL)
 target_link_libraries(Anim ${deps/lib} GLEW)

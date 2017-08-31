@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.cpp" "/home/dogol/progs/opengl/mygl/glfw/anim/build/CMakeFiles/Anim.dir/AnimManage.cpp.o"
   "/home/dogol/progs/opengl/mygl/glfw/anim/Draw.cpp" "/home/dogol/progs/opengl/mygl/glfw/anim/build/CMakeFiles/Anim.dir/Draw.cpp.o"
+  "/home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.cpp" "/home/dogol/progs/opengl/mygl/glfw/anim/build/CMakeFiles/Anim.dir/Keyboard.cpp.o"
   "/home/dogol/progs/opengl/mygl/glfw/anim/main.cpp" "/home/dogol/progs/opengl/mygl/glfw/anim/build/CMakeFiles/Anim.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

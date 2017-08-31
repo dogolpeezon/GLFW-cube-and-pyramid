@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Anim.dir/main.cpp.o"
   "CMakeFiles/Anim.dir/AnimManage.cpp.o"
   "CMakeFiles/Anim.dir/Draw.cpp.o"
+  "CMakeFiles/Anim.dir/Keyboard.cpp.o"
   "Anim.pdb"
   "Anim"
 )

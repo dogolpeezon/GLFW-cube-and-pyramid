@@ -34,6 +34,10 @@ GLFW/glfw3.h
 AnimManage.h
 /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
 
+/home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.cpp
+Keyboard.h
+/home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
+
 /home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
 AnimManage.h
 /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h

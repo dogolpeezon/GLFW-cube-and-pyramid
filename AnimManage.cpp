@@ -14,18 +14,15 @@ void AnimManage::runLoop(){
     while(_running){
         _running = !glfwWindowShouldClose(_window);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        //glDepthRange(1.0, -60);
-        //glOrtho(0, -60, 1, 0, 0, -60);
         glEnable(GL_DEPTH_TEST);
         glShadeModel(GL_SMOOTH);
-        /* glEnable(GL_CULL_FACE);
-        glCullFace(GL_BACK); */
-        
-        Draw draw1; 
-        Draw draw2;
+         
+        Draw draw1;
         draw1.Cube();
-        draw2.Pyramid();
-        
+        draw1.Pyramid();
+
+        glfwSetKeyCallback(_window, Keyboard::Key_Callback);
+   
         glfwSwapBuffers(_window);
         glfwPollEvents();
     }
@@ -43,9 +40,8 @@ AnimManage& AnimManage::getAnimManage(){
         GLFWwindow *window = glfwCreateWindow(800, 600, "GLFW Animation", NULL, NULL);
         glfwMakeContextCurrent(window);        
         animManage = new AnimManage(true);
-        
+
         std::cout << "\nAmination Manager created" << std::endl;
-        // print out some info about the graphics drivers
         std::cout << "OpenGL version: " << glGetString(GL_VERSION) << std::endl;
         std::cout << "GLSL version: " << glGetString(GL_SHADING_LANGUAGE_VERSION) << std::endl;
         std::cout << "Vendor: " << glGetString(GL_VENDOR) << std::endl;

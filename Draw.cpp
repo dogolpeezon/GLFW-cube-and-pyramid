@@ -14,7 +14,7 @@ static GLfloat green[3] = {0.0, 1.0, 0.0};
 static GLfloat blue[3] = {0.0, 0.0, 1.0};
 
 Draw::Draw(){
-        std::cout << "\nIn Draw.." << endl;
+        //std::cout << "\nIn Draw.." << endl;
 }
 Draw::~Draw(){
 }
@@ -22,7 +22,7 @@ Draw::~Draw(){
 void Draw::Pyramid(){
     // Code for the GL verts of a pyramid here
     static float pRot = 0;
-    cout << "\nIn Pyramid.." << pRot << endl;
+    //cout << "\nIn Pyramid.." << pRot << endl;
     glLoadIdentity();
     glPushMatrix();
     glTranslatef(0, -0.5, 1);
@@ -66,7 +66,7 @@ void Draw::Pyramid(){
 void Draw::Cube(){
     // Code for the GL verts of a cube here
     static float cRot = 0;
-    cout << "\nIn Cube.." << cRot << endl;
+    //cout << "\nIn Cube.." << cRot << endl;
     glLoadIdentity();
     glPushMatrix();
     glTranslatef(0, 0.5, 0);

@@ -11,6 +11,11 @@ CMakeFiles/Anim.dir/Draw.cpp.o: ../Draw.cpp
 CMakeFiles/Anim.dir/Draw.cpp.o: ../Draw.h
 CMakeFiles/Anim.dir/Draw.cpp.o: ../Keyboard.h
 
+CMakeFiles/Anim.dir/Keyboard.cpp.o: ../AnimManage.h
+CMakeFiles/Anim.dir/Keyboard.cpp.o: ../Draw.h
+CMakeFiles/Anim.dir/Keyboard.cpp.o: ../Keyboard.cpp
+CMakeFiles/Anim.dir/Keyboard.cpp.o: ../Keyboard.h
+
 CMakeFiles/Anim.dir/main.cpp.o: ../AnimManage.h
 CMakeFiles/Anim.dir/main.cpp.o: ../Draw.h
 CMakeFiles/Anim.dir/main.cpp.o: ../Keyboard.h
