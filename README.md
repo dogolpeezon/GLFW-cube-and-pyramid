@@ -3,7 +3,7 @@ OpenGL GLFW Cube pyramid
 
 This is my cube example of using GLFW with a more Object Oriented way. It was written on Linux mint system. I am working on a cross compilation cmake.
 
-All the examples i had found on line were written all in one file.. this is a start to creating more a type of application. Only just got the keyboard input to selet.
+All the examples i had found on line were written all in one file.. this is a start to creating more a type of application. Only just got the keyboard input to print to terminal.
 
 
 Build..
