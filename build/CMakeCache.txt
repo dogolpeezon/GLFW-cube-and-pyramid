@@ -270,9 +270,6 @@ OPENGL_glu_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libGLU.so
 //Path to a file.
 OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 
-//The directory containing a CMake configuration file for Opengl.
-Opengl_DIR:PATH=Opengl_DIR-NOTFOUND
-
 //Path to a program.
 P4COMMAND:FILEPATH=P4COMMAND-NOTFOUND
 
@@ -294,9 +291,6 @@ SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
-
-//The directory containing a CMake configuration file for glfw.
-glfw_DIR:PATH=glfw_DIR-NOTFOUND
 
 
 ########################

@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dogol/progs/opengl/mygl/glfw/anim/deps/include 
+CXX_INCLUDES = 
 

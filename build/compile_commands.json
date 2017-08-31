@@ -1,17 +1,17 @@
 [
 {
   "directory": "/home/dogol/progs/opengl/mygl/glfw/anim/build",
-  "command": "/usr/bin/c++    -I/home/dogol/progs/opengl/mygl/glfw/anim/deps/include  -g   -o CMakeFiles/Anim.dir/main.cpp.o -c /home/dogol/progs/opengl/mygl/glfw/anim/main.cpp",
+  "command": "/usr/bin/c++     -g   -o CMakeFiles/Anim.dir/main.cpp.o -c /home/dogol/progs/opengl/mygl/glfw/anim/main.cpp",
   "file": "/home/dogol/progs/opengl/mygl/glfw/anim/main.cpp"
 },
 {
   "directory": "/home/dogol/progs/opengl/mygl/glfw/anim/build",
-  "command": "/usr/bin/c++    -I/home/dogol/progs/opengl/mygl/glfw/anim/deps/include  -g   -o CMakeFiles/Anim.dir/AnimManage.cpp.o -c /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.cpp",
+  "command": "/usr/bin/c++     -g   -o CMakeFiles/Anim.dir/AnimManage.cpp.o -c /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.cpp",
   "file": "/home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.cpp"
 },
 {
   "directory": "/home/dogol/progs/opengl/mygl/glfw/anim/build",
-  "command": "/usr/bin/c++    -I/home/dogol/progs/opengl/mygl/glfw/anim/deps/include  -g   -o CMakeFiles/Anim.dir/Draw.cpp.o -c /home/dogol/progs/opengl/mygl/glfw/anim/Draw.cpp",
+  "command": "/usr/bin/c++     -g   -o CMakeFiles/Anim.dir/Draw.cpp.o -c /home/dogol/progs/opengl/mygl/glfw/anim/Draw.cpp",
   "file": "/home/dogol/progs/opengl/mygl/glfw/anim/Draw.cpp"
 }
 ]
