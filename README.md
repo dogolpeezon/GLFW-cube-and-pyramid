@@ -8,7 +8,7 @@ I have wrote a manager for the loop as all the examples i had found before were 
 
 Build..
 
-You can simply use the cmake file to compile the example.. will need to create directory for libs and include. You will see that i have link all the source libs for my directories.. this may be different for you system. All dependencies that are needed are same as g++ below.
+You can simply use the cmake file to compile the example.. will need to create directory for libs and include. You will see that i have link all the source libs for my directories.. this may be different for you system. All dependencies that are needed are same as g++ below and in the deps directory.
 
 Some people have used G++ compiler with all the GLFW libs linked.. IE: 
 
