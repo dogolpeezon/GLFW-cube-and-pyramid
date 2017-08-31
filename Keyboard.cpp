@@ -1,9 +1,9 @@
 #include "Keyboard.h"
 
-void Keyboard::Keyboard(){
+Keyboard::Keyboard(){
 
 }
-void Keyboard::~Keyboard(){
+Keyboard::~Keyboard(){
 
 }
 void Keyboard::keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods){
@@ -14,9 +14,9 @@ void Keyboard::keyCallback(GLFWwindow *window, int key, int scancode, int action
 
 void Keyboard::Update(){
     // Update animation with key action..
-    if(glfwGetKey(_window, GLFW_KEY_W)){
-        // Action to move.. Do this for each key.
-        std::cout << "\nIn Update W key.." << std::endl;
+    int event = glfwGetKey(_window, GLFW_KEY_W);
+    if(event == GLFW_PRESS){
+        std::cout << "press w.." << endl;
     }
 }
 

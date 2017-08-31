@@ -3,16 +3,14 @@
 // Created by Douglas Pearson 28/09/17.
 //
 #include "AnimManage.h"
+#include "Keyboard.h"
 
 AnimManage::AnimManage(bool running):
-_running(running), _window(glfwGetCurrentContext()){
-}
-AnimManage::~AnimManage(){
+_running(running), _window(glfwGetCurrentContext()){}
+AnimManage::~AnimManage(){}
 
-}
 void AnimManage::runLoop(){
-    Draw draw1; 
-    Draw draw2;
+    
     while(_running){
         _running = !glfwWindowShouldClose(_window);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -22,10 +20,12 @@ void AnimManage::runLoop(){
         glShadeModel(GL_SMOOTH);
         /* glEnable(GL_CULL_FACE);
         glCullFace(GL_BACK); */
-
+        
+        Draw draw1; 
+        Draw draw2;
         draw1.Cube();
         draw2.Pyramid();
-
+        
         glfwSwapBuffers(_window);
         glfwPollEvents();
     }
@@ -33,7 +33,7 @@ void AnimManage::runLoop(){
 
 AnimManage& AnimManage::getAnimManage(){
     static AnimManage *animManage = NULL;
-
+    
     if(animManage == NULL) {
         
         glfwInit();
@@ -41,10 +41,9 @@ AnimManage& AnimManage::getAnimManage(){
         glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
         GLFWwindow *window = glfwCreateWindow(800, 600, "GLFW Animation", NULL, NULL);
-        glfwMakeContextCurrent(window);
-  
+        glfwMakeContextCurrent(window);        
         animManage = new AnimManage(true);
-
+        
         std::cout << "\nAmination Manager created" << std::endl;
         // print out some info about the graphics drivers
         std::cout << "OpenGL version: " << glGetString(GL_VERSION) << std::endl;
