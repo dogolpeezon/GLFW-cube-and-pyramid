@@ -6,13 +6,13 @@ enable_testing()
 
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
-include_directories(deps/include)
+include_directories(${usr/include/GL} ${usr/include/GLFW})
 
 add_executable(Anim main.cpp AnimManage.cpp Draw.cpp)
 
-target_link_libraries(Anim ${deps/include} GL)
-target_link_libraries(Anim ${deps/include} GLEW)
-target_link_libraries(Anim ${deps/include} glfw3)
+target_link_libraries(Anim ${usr/lib} GL)
+target_link_libraries(Anim ${usr/lib64} GLEW)
+target_link_libraries(Anim ${usr/lib64} glfw3)
 target_link_libraries(Anim ${usr/lib} X11)
 target_link_libraries(Anim ${usr/lib} Xrandr)
 target_link_libraries(Anim ${usr/lib} Xinerama)

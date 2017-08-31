@@ -22,6 +22,7 @@ void AnimManage::runLoop(){
         glShadeModel(GL_SMOOTH);
         /* glEnable(GL_CULL_FACE);
         glCullFace(GL_BACK); */
+
         draw1.Cube();
         draw2.Pyramid();
 
