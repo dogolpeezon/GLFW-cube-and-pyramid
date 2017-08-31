@@ -5,7 +5,10 @@ This is my example of using GLFW with a more Object Oriented way. It was written
 
 I have wrote a manager for the loop as all the examples i had found before were written all in one file.. this is a start to creating more an engine type of application. I am now working on the keyboard input to selet and control.
 
-You can simply use the cmake file to compile the example.. which is in the directory or create your own. You will see that i have link all the source libs for my directories.. this may be different for you system.
+
+Build..
+
+You can simply use the cmake file to compile the example.. will need to create directory for libs and include. You will see that i have link all the source libs for my directories.. this may be different for you system. All dependencies that are needed are same as g++ below.
 
 Some people have used G++ compiler with all the GLFW libs linked.. IE: 
 
