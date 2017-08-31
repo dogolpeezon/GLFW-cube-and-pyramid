@@ -1,3 +1,7 @@
+#
+# CMakeLists.txt
+# Created by Douglas Pearson 31/09/17
+#
 cmake_minimum_required(VERSION 3.0.0)
 project(Anim VERSION 0.0.1)
 
