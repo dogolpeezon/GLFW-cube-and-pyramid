@@ -16,7 +16,7 @@ You can simply use the cmake file to compile the example..
  
  cmake build
 
-For libs and include are in the deps/ directory. Prob best to apt-get GL libs though.
+May have to edit cmake libs and include to the deps/ directory. Prob best to apt-get install GLEW glfw3 libs though.. then cmake should work if installed in same directories.
 
 Some people have used g++ compiler with all the GLFW libs linked.. IE: 
 
