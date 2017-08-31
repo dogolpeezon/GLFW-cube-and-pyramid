@@ -16,7 +16,7 @@ You can simply use the cmake file to compile the example..
 
 For libs and include are in the deps/ directory. Prob best to apt-get GL libs though.
 
-Some people have used G++ compiler with all the GLFW libs linked.. IE: 
+Some people have used g++ compiler with all the GLFW libs linked.. IE: 
 
 g++ glfw-0.cpp -o glfw -lGLEW -lglfw3 -lGL -lX11 -lXi -lXrandr -lXxf86vm -lXinerama -lXcursor -lrt -lm -pthread -ldl -lGLU
 
