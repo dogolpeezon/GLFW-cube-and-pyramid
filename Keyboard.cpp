@@ -17,7 +17,6 @@ void Keyboard::Key_Callback(GLFWwindow* window, int key, int scancode, int actio
     glfwSetWindowShouldClose(window, GL_TRUE);
     if (key >= 0 && key < 1024) {
         if (action == GLFW_PRESS)
-            //std::cout << "\nKeys true.." << endl;
             keys[key] = true;
         else if (action == GLFW_RELEASE)
             std::cout << "\nKeys false.." << keys[key] << endl;
