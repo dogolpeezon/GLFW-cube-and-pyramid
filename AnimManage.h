@@ -6,7 +6,7 @@
 #define __ANIM__ANIMMANAGE__
 
 #include <iostream>
-
+#include <stdio.h>
 #include "GLFW/glfw3.h"
 #include "Keyboard.h"
 #include "Draw.h"

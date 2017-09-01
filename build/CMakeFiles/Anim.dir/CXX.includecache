@@ -15,6 +15,8 @@ Keyboard.h
 /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
 iostream
 -
+stdio.h
+-
 GLFW/glfw3.h
 /home/dogol/progs/opengl/mygl/glfw/anim/GLFW/glfw3.h
 Keyboard.h

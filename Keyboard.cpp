@@ -10,12 +10,20 @@ Keyboard::Keyboard(){
 Keyboard::~Keyboard(){
 
 }
+bool keys[1024];
 void Keyboard::Key_Callback(GLFWwindow* window, int key, int scancode, int action, int mods){
-    if(key == GLFW_KEY_ESCAPE && action == GLFW_PRESS){
-        glfwSetWindowShouldClose(window, GL_TRUE);
+    std::cout << "\nIn Key_Callback.." << std::endl;
+	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+    glfwSetWindowShouldClose(window, GL_TRUE);
+    if (key >= 0 && key < 1024) {
+        if (action == GLFW_PRESS)
+            //std::cout << "\nKeys true.." << endl;
+            keys[key] = true;
+        else if (action == GLFW_RELEASE)
+            std::cout << "\nKeys false.." << keys[key] << endl;
+            keys[key] = false; 
     }
     if (action == GLFW_PRESS || action == GLFW_RELEASE) {
-        bool key_pressed = action == GLFW_PRESS;
         switch (key) {
             case GLFW_KEY_UP:
                 std::cout << "Up pressed.." << endl;
