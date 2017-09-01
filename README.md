@@ -15,12 +15,14 @@ You can simply use the cmake file to compile the example..
  
  cmake build
 
-May have to edit cmake libs and include to the deps/ directory. or apt-get install GLEW glfw3 libs then cmake should work if installed in same directories.
+May have to edit cmake libs and include to the deps/ directory. or apt-get install the libs then cmake should work if installed in same directories.
 
-	On linux, several packages may be required.
 	libGL.so (usually provided by libgl1-mesa-dev)
 	libglew-dev
+    libglm-dev  
 	libglfw3-dev
+    libxrandr-dev 
+    libxi-dev
 
 I use Visual Studio Code IDE.. this has a cmake extension you can add to compile. Some people have used g++ compiler with all the GLFW libs linked.. IE: 
 
