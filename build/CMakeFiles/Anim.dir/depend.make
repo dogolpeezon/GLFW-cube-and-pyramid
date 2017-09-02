@@ -7,6 +7,7 @@ CMakeFiles/Anim.dir/AnimManage.cpp.o: ../Draw.h
 CMakeFiles/Anim.dir/AnimManage.cpp.o: ../Keyboard.h
 CMakeFiles/Anim.dir/AnimManage.cpp.o: ../ext/imgui/imconfig.h
 CMakeFiles/Anim.dir/AnimManage.cpp.o: ../ext/imgui/imgui.h
+CMakeFiles/Anim.dir/AnimManage.cpp.o: ../ext/include/glfw3.h
 
 CMakeFiles/Anim.dir/Draw.cpp.o: ../AnimManage.h
 CMakeFiles/Anim.dir/Draw.cpp.o: ../Draw.cpp
@@ -14,6 +15,7 @@ CMakeFiles/Anim.dir/Draw.cpp.o: ../Draw.h
 CMakeFiles/Anim.dir/Draw.cpp.o: ../Keyboard.h
 CMakeFiles/Anim.dir/Draw.cpp.o: ../ext/imgui/imconfig.h
 CMakeFiles/Anim.dir/Draw.cpp.o: ../ext/imgui/imgui.h
+CMakeFiles/Anim.dir/Draw.cpp.o: ../ext/include/glfw3.h
 
 CMakeFiles/Anim.dir/Keyboard.cpp.o: ../AnimManage.h
 CMakeFiles/Anim.dir/Keyboard.cpp.o: ../Draw.h
@@ -21,11 +23,13 @@ CMakeFiles/Anim.dir/Keyboard.cpp.o: ../Keyboard.cpp
 CMakeFiles/Anim.dir/Keyboard.cpp.o: ../Keyboard.h
 CMakeFiles/Anim.dir/Keyboard.cpp.o: ../ext/imgui/imconfig.h
 CMakeFiles/Anim.dir/Keyboard.cpp.o: ../ext/imgui/imgui.h
+CMakeFiles/Anim.dir/Keyboard.cpp.o: ../ext/include/glfw3.h
 
 CMakeFiles/Anim.dir/main.cpp.o: ../AnimManage.h
 CMakeFiles/Anim.dir/main.cpp.o: ../Draw.h
 CMakeFiles/Anim.dir/main.cpp.o: ../Keyboard.h
 CMakeFiles/Anim.dir/main.cpp.o: ../ext/imgui/imconfig.h
 CMakeFiles/Anim.dir/main.cpp.o: ../ext/imgui/imgui.h
+CMakeFiles/Anim.dir/main.cpp.o: ../ext/include/glfw3.h
 CMakeFiles/Anim.dir/main.cpp.o: ../main.cpp
 

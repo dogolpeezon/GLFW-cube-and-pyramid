@@ -8,6 +8,7 @@ CMakeFiles/Anim.dir/AnimManage.cpp.o
  /home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
  /home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imconfig.h
  /home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imgui.h
+ /home/dogol/progs/opengl/mygl/glfw/anim/ext/include/glfw3.h
 CMakeFiles/Anim.dir/Draw.cpp.o
  /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
  /home/dogol/progs/opengl/mygl/glfw/anim/Draw.cpp
@@ -15,6 +16,7 @@ CMakeFiles/Anim.dir/Draw.cpp.o
  /home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
  /home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imconfig.h
  /home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imgui.h
+ /home/dogol/progs/opengl/mygl/glfw/anim/ext/include/glfw3.h
 CMakeFiles/Anim.dir/Keyboard.cpp.o
  /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
  /home/dogol/progs/opengl/mygl/glfw/anim/Draw.h
@@ -22,10 +24,12 @@ CMakeFiles/Anim.dir/Keyboard.cpp.o
  /home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
  /home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imconfig.h
  /home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imgui.h
+ /home/dogol/progs/opengl/mygl/glfw/anim/ext/include/glfw3.h
 CMakeFiles/Anim.dir/main.cpp.o
  /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
  /home/dogol/progs/opengl/mygl/glfw/anim/Draw.h
  /home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
  /home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imconfig.h
  /home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imgui.h
+ /home/dogol/progs/opengl/mygl/glfw/anim/ext/include/glfw3.h
  /home/dogol/progs/opengl/mygl/glfw/anim/main.cpp

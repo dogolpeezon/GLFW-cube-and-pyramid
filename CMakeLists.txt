@@ -11,9 +11,9 @@ include_directories(${ext/include})
 
 add_executable(Anim main.cpp AnimManage.cpp Draw.cpp Keyboard.cpp)
 
-target_link_libraries(Anim ${deps/lib} GL)
-target_link_libraries(Anim ${deps/lib} GLEW)
-target_link_libraries(Anim ${deps/lib} glfw3)
+target_link_libraries(Anim ${ext/lib} GL)
+target_link_libraries(Anim ${ext/lib} GLEW)
+target_link_libraries(Anim ${ext/lib} glfw3)
 target_link_libraries(Anim ${usr/lib} X11)
 target_link_libraries(Anim ${usr/lib} Xrandr)
 target_link_libraries(Anim ${usr/lib} Xinerama)

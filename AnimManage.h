@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "GLFW/glfw3.h"
+#include "ext/include/glfw3.h"
 #include "ext/imgui/imgui.h"
 #include "Keyboard.h"
 #include "Draw.h"
