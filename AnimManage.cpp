@@ -1,7 +1,7 @@
-//
+/* //
 // AnimManage.cpp
 // Created by Douglas Pearson 28/09/17.
-//
+// */
 #include "AnimManage.h"
 #include "Keyboard.h"
 
@@ -44,7 +44,7 @@ AnimManage& AnimManage::getAnimManage(){
 
         std::cout << "\nAmination Manager created" << std::endl;
         //std::cout << "GLFW version: " << glGetString(GLFW_VISIBLE) << endl;
-        printf("GLFW Version: ", glfwGetVersionString());
+        //printf("GLFW Version: ", glfwGetVersionString());
         std::cout << "OpenGL version: " << glGetString(GL_VERSION) << std::endl;
         std::cout << "GLSL version: " << glGetString(GL_SHADING_LANGUAGE_VERSION) << std::endl;
         std::cout << "Vendor: " << glGetString(GL_VENDOR) << std::endl;

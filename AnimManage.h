@@ -1,7 +1,7 @@
-//
+/* //
 // AnimManage.h
 // Created by Douglas Pearson 28/09/17.
-//
+// */
 #ifndef __ANIM__ANIMMANAGE__
 #define __ANIM__ANIMMANAGE__
 
@@ -20,7 +20,6 @@ public:
 
 private: 
     bool _running;
-    //Keyboard *_Keyboard;
     GLFWwindow *_window;
 
     AnimManage(bool running);
