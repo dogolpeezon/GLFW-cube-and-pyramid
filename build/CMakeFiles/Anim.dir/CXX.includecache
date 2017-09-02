@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -19,6 +19,8 @@ stdio.h
 -
 GLFW/glfw3.h
 /home/dogol/progs/opengl/mygl/glfw/anim/GLFW/glfw3.h
+ext/imgui/imgui.h
+/home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imgui.h
 Keyboard.h
 /home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
 Draw.h
@@ -43,6 +45,24 @@ Keyboard.h
 /home/dogol/progs/opengl/mygl/glfw/anim/Keyboard.h
 AnimManage.h
 /home/dogol/progs/opengl/mygl/glfw/anim/AnimManage.h
+
+/home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imconfig.h
+
+/home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imgui.h
+imconfig.h
+/home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+imgui_user.h
+/home/dogol/progs/opengl/mygl/glfw/anim/ext/imgui/imgui_user.h
 
 /home/dogol/progs/opengl/mygl/glfw/anim/main.cpp
 AnimManage.h

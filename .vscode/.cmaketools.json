@@ -6,5 +6,51 @@
     },
     "description": "Emit debug information without performing optimizations"
   },
-  "activeEnvironments": []
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/home/dogol/progs/opengl/mygl/glfw/anim/build",
+            "name": "Anim",
+            "sourceDirectory": "/home/dogol/progs/opengl/mygl/glfw/anim",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/dogol/progs/opengl/mygl/glfw/anim/build/Anim"
+                ],
+                "buildDirectory": "/home/dogol/progs/opengl/mygl/glfw/anim/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp",
+                      "AnimManage.cpp",
+                      "Draw.cpp",
+                      "Keyboard.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "Anim",
+                "linkFlags": "-rdynamic",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "-lGL -lGLEW -lglfw3 -lX11 -lXrandr -lXinerama -lXxf86vm -lXcursor -lpthread -ldl",
+                "linkerLanguage": "CXX",
+                "name": "Anim",
+                "sourceDirectory": "/home/dogol/progs/opengl/mygl/glfw/anim",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.47333256357566356",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
 }

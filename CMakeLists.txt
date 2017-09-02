@@ -7,7 +7,7 @@ project(Anim VERSION 0.0.1)
 
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
-include_directories(${deps/include})
+include_directories(${ext/include})
 
 add_executable(Anim main.cpp AnimManage.cpp Draw.cpp Keyboard.cpp)
 
