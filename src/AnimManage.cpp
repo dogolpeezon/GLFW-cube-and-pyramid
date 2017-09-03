@@ -13,7 +13,7 @@ void AnimManage::runLoop(){
     
     while(_running){
         _running = !glfwWindowShouldClose(_window);
-        // Get w, h for viewport
+        // Get w, h for viewport for resize
         int width, hieght;
         glfwGetFramebufferSize(_window, &width, &hieght);
         glViewport(0, 0, width, hieght);
