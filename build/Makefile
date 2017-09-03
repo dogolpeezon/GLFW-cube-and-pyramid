@@ -145,113 +145,194 @@ Anim/fast:
 	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/build
 .PHONY : Anim/fast
 
-AnimManage.o: AnimManage.cpp.o
+src/AnimManage.o: src/AnimManage.cpp.o
 
-.PHONY : AnimManage.o
-
-# target to build an object file
-AnimManage.cpp.o:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/AnimManage.cpp.o
-.PHONY : AnimManage.cpp.o
-
-AnimManage.i: AnimManage.cpp.i
-
-.PHONY : AnimManage.i
-
-# target to preprocess a source file
-AnimManage.cpp.i:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/AnimManage.cpp.i
-.PHONY : AnimManage.cpp.i
-
-AnimManage.s: AnimManage.cpp.s
-
-.PHONY : AnimManage.s
-
-# target to generate assembly for a file
-AnimManage.cpp.s:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/AnimManage.cpp.s
-.PHONY : AnimManage.cpp.s
-
-Draw.o: Draw.cpp.o
-
-.PHONY : Draw.o
+.PHONY : src/AnimManage.o
 
 # target to build an object file
-Draw.cpp.o:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Draw.cpp.o
-.PHONY : Draw.cpp.o
+src/AnimManage.cpp.o:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/AnimManage.cpp.o
+.PHONY : src/AnimManage.cpp.o
 
-Draw.i: Draw.cpp.i
+src/AnimManage.i: src/AnimManage.cpp.i
 
-.PHONY : Draw.i
+.PHONY : src/AnimManage.i
 
 # target to preprocess a source file
-Draw.cpp.i:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Draw.cpp.i
-.PHONY : Draw.cpp.i
+src/AnimManage.cpp.i:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/AnimManage.cpp.i
+.PHONY : src/AnimManage.cpp.i
 
-Draw.s: Draw.cpp.s
+src/AnimManage.s: src/AnimManage.cpp.s
 
-.PHONY : Draw.s
+.PHONY : src/AnimManage.s
 
 # target to generate assembly for a file
-Draw.cpp.s:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Draw.cpp.s
-.PHONY : Draw.cpp.s
+src/AnimManage.cpp.s:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/AnimManage.cpp.s
+.PHONY : src/AnimManage.cpp.s
 
-Keyboard.o: Keyboard.cpp.o
+src/Draw.o: src/Draw.cpp.o
 
-.PHONY : Keyboard.o
+.PHONY : src/Draw.o
 
 # target to build an object file
-Keyboard.cpp.o:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Keyboard.cpp.o
-.PHONY : Keyboard.cpp.o
+src/Draw.cpp.o:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/Draw.cpp.o
+.PHONY : src/Draw.cpp.o
 
-Keyboard.i: Keyboard.cpp.i
+src/Draw.i: src/Draw.cpp.i
 
-.PHONY : Keyboard.i
+.PHONY : src/Draw.i
 
 # target to preprocess a source file
-Keyboard.cpp.i:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Keyboard.cpp.i
-.PHONY : Keyboard.cpp.i
+src/Draw.cpp.i:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/Draw.cpp.i
+.PHONY : src/Draw.cpp.i
 
-Keyboard.s: Keyboard.cpp.s
+src/Draw.s: src/Draw.cpp.s
 
-.PHONY : Keyboard.s
+.PHONY : src/Draw.s
 
 # target to generate assembly for a file
-Keyboard.cpp.s:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/Keyboard.cpp.s
-.PHONY : Keyboard.cpp.s
+src/Draw.cpp.s:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/Draw.cpp.s
+.PHONY : src/Draw.cpp.s
 
-main.o: main.cpp.o
+src/Keyboard.o: src/Keyboard.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Keyboard.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Keyboard.cpp.o:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/Keyboard.cpp.o
+.PHONY : src/Keyboard.cpp.o
 
-main.i: main.cpp.i
+src/Keyboard.i: src/Keyboard.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Keyboard.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Keyboard.cpp.i:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/Keyboard.cpp.i
+.PHONY : src/Keyboard.cpp.i
 
-main.s: main.cpp.s
+src/Keyboard.s: src/Keyboard.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Keyboard.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Keyboard.cpp.s:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/Keyboard.cpp.s
+.PHONY : src/Keyboard.cpp.s
+
+src/imgui.o: src/imgui.cpp.o
+
+.PHONY : src/imgui.o
+
+# target to build an object file
+src/imgui.cpp.o:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui.cpp.o
+.PHONY : src/imgui.cpp.o
+
+src/imgui.i: src/imgui.cpp.i
+
+.PHONY : src/imgui.i
+
+# target to preprocess a source file
+src/imgui.cpp.i:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui.cpp.i
+.PHONY : src/imgui.cpp.i
+
+src/imgui.s: src/imgui.cpp.s
+
+.PHONY : src/imgui.s
+
+# target to generate assembly for a file
+src/imgui.cpp.s:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui.cpp.s
+.PHONY : src/imgui.cpp.s
+
+src/imgui_draw.o: src/imgui_draw.cpp.o
+
+.PHONY : src/imgui_draw.o
+
+# target to build an object file
+src/imgui_draw.cpp.o:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui_draw.cpp.o
+.PHONY : src/imgui_draw.cpp.o
+
+src/imgui_draw.i: src/imgui_draw.cpp.i
+
+.PHONY : src/imgui_draw.i
+
+# target to preprocess a source file
+src/imgui_draw.cpp.i:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui_draw.cpp.i
+.PHONY : src/imgui_draw.cpp.i
+
+src/imgui_draw.s: src/imgui_draw.cpp.s
+
+.PHONY : src/imgui_draw.s
+
+# target to generate assembly for a file
+src/imgui_draw.cpp.s:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui_draw.cpp.s
+.PHONY : src/imgui_draw.cpp.s
+
+src/imgui_impl_glfw.o: src/imgui_impl_glfw.cpp.o
+
+.PHONY : src/imgui_impl_glfw.o
+
+# target to build an object file
+src/imgui_impl_glfw.cpp.o:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui_impl_glfw.cpp.o
+.PHONY : src/imgui_impl_glfw.cpp.o
+
+src/imgui_impl_glfw.i: src/imgui_impl_glfw.cpp.i
+
+.PHONY : src/imgui_impl_glfw.i
+
+# target to preprocess a source file
+src/imgui_impl_glfw.cpp.i:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui_impl_glfw.cpp.i
+.PHONY : src/imgui_impl_glfw.cpp.i
+
+src/imgui_impl_glfw.s: src/imgui_impl_glfw.cpp.s
+
+.PHONY : src/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+src/imgui_impl_glfw.cpp.s:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/imgui_impl_glfw.cpp.s
+.PHONY : src/imgui_impl_glfw.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Anim.dir/build.make CMakeFiles/Anim.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -264,18 +345,27 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... edit_cache"
-	@echo "... AnimManage.o"
-	@echo "... AnimManage.i"
-	@echo "... AnimManage.s"
-	@echo "... Draw.o"
-	@echo "... Draw.i"
-	@echo "... Draw.s"
-	@echo "... Keyboard.o"
-	@echo "... Keyboard.i"
-	@echo "... Keyboard.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/AnimManage.o"
+	@echo "... src/AnimManage.i"
+	@echo "... src/AnimManage.s"
+	@echo "... src/Draw.o"
+	@echo "... src/Draw.i"
+	@echo "... src/Draw.s"
+	@echo "... src/Keyboard.o"
+	@echo "... src/Keyboard.i"
+	@echo "... src/Keyboard.s"
+	@echo "... src/imgui.o"
+	@echo "... src/imgui.i"
+	@echo "... src/imgui.s"
+	@echo "... src/imgui_draw.o"
+	@echo "... src/imgui_draw.i"
+	@echo "... src/imgui_draw.s"
+	@echo "... src/imgui_impl_glfw.o"
+	@echo "... src/imgui_impl_glfw.i"
+	@echo "... src/imgui_impl_glfw.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

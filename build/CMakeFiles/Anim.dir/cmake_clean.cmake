@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Anim.dir/main.cpp.o"
-  "CMakeFiles/Anim.dir/AnimManage.cpp.o"
-  "CMakeFiles/Anim.dir/Draw.cpp.o"
-  "CMakeFiles/Anim.dir/Keyboard.cpp.o"
+  "CMakeFiles/Anim.dir/src/main.cpp.o"
+  "CMakeFiles/Anim.dir/src/AnimManage.cpp.o"
+  "CMakeFiles/Anim.dir/src/Draw.cpp.o"
+  "CMakeFiles/Anim.dir/src/Keyboard.cpp.o"
+  "CMakeFiles/Anim.dir/src/imgui_impl_glfw.cpp.o"
+  "CMakeFiles/Anim.dir/src/imgui.cpp.o"
+  "CMakeFiles/Anim.dir/src/imgui_draw.cpp.o"
   "Anim.pdb"
   "Anim"
 )

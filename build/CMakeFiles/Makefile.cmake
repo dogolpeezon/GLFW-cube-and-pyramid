@@ -31,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/share/cmake-3.9/Modules/FindOpenGL.cmake"
   "/usr/local/share/cmake-3.9/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/local/share/cmake-3.9/Modules/FindPackageMessage.cmake"
+  "/usr/local/share/cmake-3.9/Modules/GNUInstallDirs.cmake"
   "/usr/local/share/cmake-3.9/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/local/share/cmake-3.9/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/local/share/cmake-3.9/Modules/Platform/Linux-GNU.cmake"

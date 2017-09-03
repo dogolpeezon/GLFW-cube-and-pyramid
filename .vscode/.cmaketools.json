@@ -25,13 +25,21 @@
                 "fileGroups": [
                   {
                     "compileFlags": "-g  ",
+                    "includePath": [
+                      {
+                        "path": "/home/dogol/progs/opengl/mygl/glfw/anim/include"
+                      }
+                    ],
                     "isGenerated": false,
                     "language": "CXX",
                     "sources": [
-                      "main.cpp",
-                      "AnimManage.cpp",
-                      "Draw.cpp",
-                      "Keyboard.cpp"
+                      "src/main.cpp",
+                      "src/AnimManage.cpp",
+                      "src/Draw.cpp",
+                      "src/Keyboard.cpp",
+                      "src/imgui_impl_glfw.cpp",
+                      "src/imgui.cpp",
+                      "src/imgui_draw.cpp"
                     ]
                   }
                 ],
@@ -49,7 +57,7 @@
         ]
       }
     ],
-    "cookie": "0.10315326412768155",
+    "cookie": "0.14246738594744013",
     "inReplyTo": "codemodel",
     "type": "reply"
   }
