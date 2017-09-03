@@ -28,9 +28,9 @@ set(SRCS src/main.cpp
 include_directories(include)
 add_executable(Anim  ${SRCS} ) 
 
-target_link_libraries(Anim ${ext/lib} GL)
-target_link_libraries(Anim ${ext/lib} GLEW)
-target_link_libraries(Anim ${ext/lib} glfw3)
+target_link_libraries(Anim ${../lib} GL)
+target_link_libraries(Anim ${../lib} GLEW)
+target_link_libraries(Anim ${../lib} glfw3)
 target_link_libraries(Anim ${usr/lib} X11)
 target_link_libraries(Anim ${usr/lib} Xrandr)
 target_link_libraries(Anim ${usr/lib} Xinerama)

@@ -63,7 +63,7 @@ AnimManage& AnimManage::getAnimManage(){
         
 
         std::cout << "\nAmination Manager created" << std::endl;
-        std::cout << "GLFW version: " << glGetString(GLFW_VISIBLE) << endl;
+        //std::cout << "GLFW version: " << glGetString(GLFW_VISIBLE) << endl;
         //printf("GLFW Version: ", glfwGetVersionString());
         std::cout << "OpenGL version: " << glGetString(GL_VERSION) << std::endl;
         std::cout << "GLSL version: " << glGetString(GL_SHADING_LANGUAGE_VERSION) << std::endl;
