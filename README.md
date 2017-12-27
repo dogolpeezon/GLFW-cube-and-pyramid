@@ -16,7 +16,7 @@ You can simply use the cmake file to compile the example..
  
  cmake build && cd build && make
 
-May have to edit cmake libs and include to the deps/ directory. or apt-get install the libs then cmake should work if installed in same directories.
+May have to edit cmake libs and include to the deps/ directory. or apt-get install the libs, or delete cmakecache.txt then remake.
 
 	libGL.so (usually provided by libgl1-mesa-dev)
 	libglew-dev
