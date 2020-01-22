@@ -25,7 +25,7 @@ May have to edit cmake libs and include to the deps/ directory. or apt-get insta
     libxrandr-dev 
     libxi-dev
 
-I use Visual Studio Code IDE.. this has a cmake extension you can add to compile. Some people have used g++ compiler with all the GLFW libs linked.. IE: 
+I use Visual Studio Code IDE.. Or Atom IDE.. this has a cmake extension you can add to compile. Some people have used g++ compiler with all the GLFW libs linked.. IE: 
 
 g++ main.cpp AnimManage.cpp Draw.cpp Keyboard.cpp imgui.cpp imgui_impl_glfw.cpp imgui_draw.cpp -o glfw-Animation -lGLEW -lglfw3 -lGL -lX11 -lXi -lXrandr -lXxf86vm -lXinerama -lXcursor -lrt -lm -pthread -ldl -lGLU
 
